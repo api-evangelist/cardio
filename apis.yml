@@ -1,22 +1,78 @@
 aid: cardio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cardio.png
 name: card.io
-description: card.io is a company surfaced as a portfolio company of uncork-capital and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  card.io was a mobile SDK company that provided fast, easy credit-card scanning
+  inside iOS and Android apps using the device camera, letting users capture card
+  details by holding a card up to the lens instead of typing them. Founded around
+  2011 and backed by Uncork Capital (then SoftTech VC), card.io was acquired by
+  PayPal in 2012. Its scanning SDKs for iOS, Android, Cordova, and React Native were
+  open-sourced in December 2014 under the card-io GitHub organization, and the product
+  was ultimately discontinued. The company operated no public REST or web API; its
+  product surface was a set of client-side mobile SDKs, all of which are now archived.
+  This profile is maintained for network completeness and historical/portfolio context.
 url: https://raw.githubusercontent.com/api-evangelist/cardio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
+x-status: defunct
+x-status-detail: Acquired by PayPal (2012); SDKs open-sourced (2014) and later discontinued/archived.
 x-backed-by:
 - uncork-capital
+x-acquired-by: paypal
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Payments
+- Mobile
+- SDK
+- Credit Cards
+- Computer Vision
+- Card Scanning
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: https://www.card.io
+- type: GitHubOrganization
+  url: https://github.com/card-io
+- type: Documentation
+  url: https://github.com/card-io/card.io-iOS-SDK/blob/master/README.md
+- type: SourceCode
+  name: card.io iOS SDK (archived)
+  url: https://github.com/card-io/card.io-iOS-SDK
+- type: SourceCode
+  name: card.io Android SDK (archived)
+  url: https://github.com/card-io/card.io-Android-SDK
+- type: Packages
+  url: packages/cardio-packages.yml
+- type: SDKs
+  url: packages/cardio-packages.yml
+- type: DomainSecurity
+  url: security/cardio-domain-security.yml
+- type: LLMsTxt
+  url: llms/cardio-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

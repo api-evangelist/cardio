@@ -1,0 +1,32 @@
+# card.io
+
+> card.io was a mobile SDK company that provided fast, easy credit-card scanning inside iOS and Android apps using the device camera. Backed by Uncork Capital and acquired by PayPal in 2012, its scanning SDKs were open-sourced in 2014 and later discontinued. card.io operated no public web/REST API; its product surface was a set of now-archived client-side mobile SDKs.
+
+- Status: Defunct (acquired by PayPal 2012; SDKs open-sourced 2014; product discontinued/archived)
+- Backed by: Uncork Capital (formerly SoftTech VC)
+
+## Source Code (archived)
+
+- [card.io iOS SDK](https://github.com/card-io/card.io-iOS-SDK): Fast, easy credit card scanning in iOS apps (Objective-C, archived)
+- [card.io Android SDK](https://github.com/card-io/card.io-Android-SDK): Fast, easy credit card scanning in Android apps (Java, archived)
+- [card.io iOS source](https://github.com/card-io/card.io-iOS-source): Open-source code for the iOS SDK (archived)
+- [card.io Android source](https://github.com/card-io/card.io-Android-source): Open-source code for the Android SDK (C++, archived)
+- [card.io Cordova Plugin](https://github.com/card-io/card.io-Cordova-Plugin): Cordova plugin wrapper (archived)
+- [card.io dmz](https://github.com/card-io/card.io-dmz): Core image-processing / machine-learning code shared between iOS and Android (C++, archived)
+- [react-native-card-io](https://github.com/card-io/react-native-card-io): React Native plugin (archived)
+
+## Packages
+
+- [CardIO on CocoaPods](https://cocoapods.org/pods/CardIO): iOS pod `CardIO` v5.4.1 (2016), maintained by PayPal, deprecated
+- Android: Maven `io.card:android-sdk` (archived)
+- React Native: npm `react-native-card-io` (archived)
+
+## Docs
+
+- [card.io iOS SDK README](https://github.com/card-io/card.io-iOS-SDK/blob/master/README.md)
+- [GitHub organization](https://github.com/card-io)
+
+## Artifacts
+
+- [Packages](https://raw.githubusercontent.com/api-evangelist/cardio/refs/heads/main/packages/cardio-packages.yml)
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/cardio/refs/heads/main/security/cardio-domain-security.yml)

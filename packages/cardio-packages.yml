@@ -1,0 +1,58 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/card-io
+notes: >-
+  card.io shipped no server-side API client libraries; its product was a set of
+  first-party client-side mobile SDKs for scanning credit cards via the camera.
+  All packages and repositories are archived/discontinued following the PayPal
+  acquisition. Registry coordinates captured verbatim from CocoaPods and the
+  card-io GitHub organization; unverified version numbers are omitted rather than
+  guessed.
+packages:
+- language: objective-c
+  platform: ios
+  registry: cocoapods
+  name: CardIO
+  version: 5.4.1
+  released: '2016-09'
+  url: https://cocoapods.org/pods/CardIO
+  install: pod 'CardIO'
+  source: https://github.com/card-io/card.io-iOS-SDK
+  official: true
+  status: deprecated
+- language: java
+  platform: android
+  registry: maven
+  name: io.card:android-sdk
+  url: https://github.com/card-io/card.io-Android-SDK
+  install: implementation 'io.card:android-sdk:+'
+  source: https://github.com/card-io/card.io-Android-SDK
+  official: true
+  status: archived
+- language: javascript
+  platform: cordova
+  registry: github
+  name: card.io-Cordova-Plugin
+  url: https://github.com/card-io/card.io-Cordova-Plugin
+  install: cordova plugin add https://github.com/card-io/card.io-Cordova-Plugin
+  source: https://github.com/card-io/card.io-Cordova-Plugin
+  official: true
+  status: archived
+- language: javascript
+  platform: react-native
+  registry: npm
+  name: react-native-card-io
+  url: https://github.com/card-io/react-native-card-io
+  install: npm install react-native-card-io
+  source: https://github.com/card-io/react-native-card-io
+  official: true
+  status: archived
+- language: c++
+  platform: shared
+  registry: github
+  name: card.io-dmz
+  url: https://github.com/card-io/card.io-dmz
+  source: https://github.com/card-io/card.io-dmz
+  description: Core image-processing and machine-learning code shared between iOS and Android.
+  official: true
+  status: archived
