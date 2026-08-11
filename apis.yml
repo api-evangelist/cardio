@@ -51,6 +51,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: IssueTracker
+  url: https://github.com/card-io/card.io-iOS-SDK/issues
+- type: Releases
+  url: https://github.com/card-io/card.io-iOS-SDK/releases
 - type: Website
   url: https://www.card.io
 - type: GitHubOrganization
